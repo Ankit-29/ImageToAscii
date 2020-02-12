@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Image To Ascii</title>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column;height:inherit">
+        <div style="flex-grow:0;">
+            <input type="file" id="image" accept=".jpg , .png">
+            <button onClick="imageToAscii()">Convert</button>
+        </div>
+        <div style="flex-grow:1;">
+            <canvas></canvas>
+        </div>
+    </div>
+    <!-- <canvas></canvas> -->
+</body>
+
+</html>
+<script src="js/index.js"></script>
